@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Main Container */
+#container{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/bg2.jpg);
+    background-size: cover;
+}
+/* Box */
+#box{
+    overflow: auto;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+/* Navigation */
+#nav{
+    padding: 12px;
+    overflow: auto;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+ul{
+    float: right;
+}
+li{
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+ul li a{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+/* Logo */
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+#logo{
+    float: left;
+    margin-left: 50px;
+}
+/* Title */
+#title h1{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+/* Button */
+#btn{
+    text-align: center;
+}
+#btn a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    position: relative;
+    top: 180px;
+}
+#b1{
+    margin-right: 15px;
+}
+#b2{
+    margin-left: 15px;
+}
